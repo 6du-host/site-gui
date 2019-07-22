@@ -1,5 +1,7 @@
 package main
 
+import "github.com/getlantern/systray"
+
 func main() {
 	// Should be called at the very beginning of main().
 	systray.Run(onReady, onExit)
